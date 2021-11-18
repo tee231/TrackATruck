@@ -1,0 +1,358 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.API\\LaFarge.TruckingMgt.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.API\\LaFarge.TruckingMgt.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.API\\LaFarge.TruckingMgt.API.csproj",
+        "projectName": "LaFarge.TruckingMgt.API",
+        "projectPath": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.API\\LaFarge.TruckingMgt.API.csproj",
+        "packagesPath": "C:\\Users\\Tee\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Core\\LaFarge.TruckingMgt.Core.csproj": {
+                "projectPath": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Core\\LaFarge.TruckingMgt.Core.csproj"
+              },
+              "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Data\\LaFarge.TruckingMgt.Data.csproj": {
+                "projectPath": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Data\\LaFarge.TruckingMgt.Data.csproj"
+              },
+              "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Infrstructure\\LaFarge.TruckingMgt.Infrstructure.csproj": {
+                "projectPath": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Infrstructure\\LaFarge.TruckingMgt.Infrstructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AspNetCoreRateLimit": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Core\\LaFarge.TruckingMgt.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Core\\LaFarge.TruckingMgt.Core.csproj",
+        "projectName": "LaFarge.TruckingMgt.Core",
+        "projectPath": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Core\\LaFarge.TruckingMgt.Core.csproj",
+        "packagesPath": "C:\\Users\\Tee\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Data\\LaFarge.TruckingMgt.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Data\\LaFarge.TruckingMgt.Data.csproj",
+        "projectName": "LaFarge.TruckingMgt.Data",
+        "projectPath": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Data\\LaFarge.TruckingMgt.Data.csproj",
+        "packagesPath": "C:\\Users\\Tee\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Core\\LaFarge.TruckingMgt.Core.csproj": {
+                "projectPath": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Core\\LaFarge.TruckingMgt.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Infrstructure\\LaFarge.TruckingMgt.Infrstructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Infrstructure\\LaFarge.TruckingMgt.Infrstructure.csproj",
+        "projectName": "LaFarge.TruckingMgt.Infrstructure",
+        "projectPath": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Infrstructure\\LaFarge.TruckingMgt.Infrstructure.csproj",
+        "packagesPath": "C:\\Users\\Tee\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Infrstructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Core\\LaFarge.TruckingMgt.Core.csproj": {
+                "projectPath": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Core\\LaFarge.TruckingMgt.Core.csproj"
+              },
+              "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Data\\LaFarge.TruckingMgt.Data.csproj": {
+                "projectPath": "C:\\Users\\Tee\\Downloads\\Track-a-truck - Copy\\Track-a-truck\\Back End\\Track-a-truckMgt\\LaFarge.TruckingMgt.Data\\LaFarge.TruckingMgt.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
