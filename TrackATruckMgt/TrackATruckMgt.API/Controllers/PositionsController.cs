@@ -22,6 +22,9 @@ namespace TrackATruckMgt.API.Controllers
             _positionsManager = positionManager;
 
         }
+
+
+
         [HttpGet("GetAllPositions")]
         public async Task<IActionResult> GetAllDrivers()
         {

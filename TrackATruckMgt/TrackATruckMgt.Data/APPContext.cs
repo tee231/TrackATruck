@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TrackATruckMgt.Infrstructure.Configurations;
 using TrackATruckMgt.Core.DTOs;
+using TrackATruckMgt.Core.Users;
 
 namespace TrackATruckMgt.Data
 {
@@ -22,6 +23,7 @@ namespace TrackATruckMgt.Data
         public DbSet<DriverDto> Drivers { get; set; }
         public DbSet<Position> Positions { get; set; }
         public DbSet<Truck> Trucks { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

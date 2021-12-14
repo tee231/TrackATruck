@@ -12,6 +12,7 @@ namespace TrackATruckMgt.Core.Interfaces.Managers
 {
     public interface IPositionManager
     {
+
         Task<PositionDto[]> GetByAssetId(string AssetId);
         Task<PositionDto[]> GetAllPositions();
         Task<PositionDto> GetByAssetIdAndDriverId(string AssetId, string DriverId);

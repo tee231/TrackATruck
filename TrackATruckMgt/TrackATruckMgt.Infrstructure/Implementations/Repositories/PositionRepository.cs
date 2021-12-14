@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TrackATruckMgt.Core.Interfaces.Repositories;
+using Microsoft.AspNetCore.Mvc;
 
 namespace TrackATruckMgt.Infrstructure.Implementations.Repositories
 {
@@ -19,6 +20,40 @@ namespace TrackATruckMgt.Infrstructure.Implementations.Repositories
         public PositionRepository(APPContext aPPContext)
         {
             _appContext = aPPContext;
+        }
+
+        // public async Task<IActionResult> Create(PositionDto position)
+        public async Task<PositionDto> Create(PositionDto position)
+        {
+
+           _appContext.Set<PositionDto>().ToList();
+            var fresh = new PositionDto()
+            {
+                DriverId = position.DriverId,
+
+               AssetId = position.AssetId,
+             AltitudeMetres = position.AltitudeMetres,
+             Heading = position.Heading,
+             Latitude = position.Latitude,
+             IsAvl = position.IsAvl,
+             OdometerKilometres  = position.OdometerKilometres,
+              Longitude = position.Longitude,
+            Hdop = position.Hdop,
+            PositionId = position.PositionId,
+            Pdop = position.Pdop,
+             TimeStamp = DateTime.Now,
+            Source = position.Source,
+            SpeedKilometresPerHour = position.SpeedKilometresPerHour,
+            SpeedLimit = position.SpeedLimit,
+            Vdop  = position.Vdop
+
+    };
+            _appContext.Add(fresh);
+            await _appContext.SaveChangesAsync();
+
+            // return (IActionResult)fresh;
+            return fresh;
+
         }
 
         public async Task<PositionDto[]> GetAllPositions()

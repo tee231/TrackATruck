@@ -6,13 +6,18 @@
 
   <ItemGroup>
     <Compile Remove="Migrations\**" />
+    <Compile Remove="User\**" />
     <EmbeddedResource Remove="Migrations\**" />
+    <EmbeddedResource Remove="User\**" />
     <None Remove="Migrations\**" />
+    <None Remove="User\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Include="Migrations\20211115104439_First.cs" />
     <Compile Include="Migrations\20211115104439_First.Designer.cs" />
+    <Compile Include="Migrations\20211129085601_Users.cs" />
+    <Compile Include="Migrations\20211129085601_Users.Designer.cs" />
     <Compile Include="Migrations\APPContextModelSnapshot.cs" />
   </ItemGroup>
 

@@ -38,11 +38,12 @@ namespace TrackATruckMgt.Infrstructure.Configurations
             services.AddScoped<IDriverRepository, DriverRepository>();
             services.AddScoped<ITruckRepository, TruckRepository>();
             services.AddScoped<IPositionRepository, PositionRepository>();
-
+            services.AddScoped<IUserRepository, UserRepository>();
             // Managers Injections
             services.AddScoped<IPositionManager, PositionManager>();
             services.AddScoped<IDriverManager, DriverManager>();
             services.AddScoped<ITruckManager, TruckManager>();
+           // services.AddScoped<>
 
 
 
